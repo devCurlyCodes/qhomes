@@ -24,7 +24,7 @@ const developments = [
   {
     id: 3,
     name: "Azure Towers",
-    location: "Upper Hill, Nairobi",
+    location: "Ngong, Nairobi",
     image: "/slidethree.jpg",
     progress: 80,
     description:
