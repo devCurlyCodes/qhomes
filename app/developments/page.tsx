@@ -1,4 +1,4 @@
-import DevelopmentHeroOne from "@/components/development/DevelopmentHero";
+import DevelopmentHeroOne from "@/components/Development/DevelopmentHero";
 import React from "react";
 
 const page = () => {

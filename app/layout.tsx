@@ -1,7 +1,8 @@
 import { Inter, Poppins } from "next/font/google";
 import "./globals.css";
-import HeaderComponent from "@/components/Header/HeaderComponent";
+// import HeaderComponent from "@/components/Header/HeaderComponent";
 import FooterContainer from "@/components/Footer/FooterContainer";
+import HeaderComponents from "@/components/Header/HeaderComponents";
 
 const inter = Inter({ variable: "--font-inter", subsets: ["latin"] });
 const poppins = Poppins({
@@ -31,7 +32,7 @@ export default function RootLayout({
         </style>
       </head>
       <body className={`${inter.variable} ${poppins.variable} antialiased   `}>
-        <HeaderComponent />
+        <HeaderComponents />
         <div className="mainBody flex-grow">
           {children ?? <p>Something went wrong, please try again.</p>}
         </div>
